@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "hkdevmc-launcher",
   "version": "1.8.0",
-  "productName": "Helios Launcher",
+  "productName": "Fiesta in HK",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "HKDev (https://github.com/hkdevmc/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/hkdevmc/hkdevmc-launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/hkdevmc/hkdevmc-launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/hkdevmc/hkdevmc-launcher.git"
   }
 }

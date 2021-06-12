@@ -1533,7 +1533,7 @@ class AssetGuard extends EventEmitter {
                 if(type === DistroManager.Types.ForgeHosted || type === DistroManager.Types.Forge){
                     if(Util.isForgeGradle3(server.getMinecraftVersion(), ob.getVersion())){
                         // Read Manifest
-                        for(let sub of ob.getSubModules()){
+                        if (ob.getSubModules() !== null) for(let sub of ob.getSubModules()){
                             if(sub.getType() === DistroManager.Types.VersionManifest){
                                 resolve(JSON.parse(fs.readFileSync(sub.getArtifact().getPath(), 'utf-8')))
                                 return
